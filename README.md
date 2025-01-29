@@ -55,9 +55,10 @@ python auto_runner.py
 This will:
 - Run all configured test cases
 - Optimize impeller parameters
-- Generate comprehensive performance visualizations
+- Automatically generate comprehensive performance visualizations
+- Save all results and visualizations in the `results` directory
 
-All results and visualizations will be saved in the `results` directory.
+Note: There's no need to run the visualization separately as it's fully integrated into the auto_runner.
 
 ## Visualization Suite
 
