@@ -1,0 +1,55 @@
+# Impeller Optimization Configuration
+
+# Global optimization settings
+optimization_settings:
+  convergence_threshold: 0.01
+  save_results_dir: "results"
+  log_file: "impeller_optimization.log"
+  log_level: "INFO"
+
+# Default impeller parameters (used as starting point)
+default_impeller:
+  num_blades: 6
+  outer_diameter: 0.3  # meters
+  inner_diameter: 0.1  # meters
+  blade_angle_inlet: 30.0  # degrees
+  blade_angle_outlet: 60.0  # degrees
+  blade_height: 0.05  # meters
+  rotational_speed: 1500  # RPM
+
+# Parameter bounds for optimization
+parameter_bounds:
+  num_blades: [3, 12]
+  outer_diameter: [0.1, 0.5]
+  inner_diameter: [0.05, 0.2]
+  blade_angle_inlet: [10, 60]
+  blade_angle_outlet: [20, 70]
+  blade_height: [0.01, 0.1]
+  rotational_speed: [500, 3000]
+
+# Test cases to run
+test_cases:
+  - name: "Low Flow Rate"
+    flow_rates: [5.0, 7.5, 10.0]
+    max_iterations: 10
+    
+  - name: "Medium Flow Rate"
+    flow_rates: [15.0, 20.0, 25.0]
+    max_iterations: 15
+    
+  - name: "High Flow Rate"
+    flow_rates: [30.0, 35.0, 40.0]
+    max_iterations: 20
+
+# Performance targets
+performance_targets:
+  min_efficiency: 0.7
+  max_tip_speed: 200  # m/s
+  target_specific_speed_range: [0.2, 1.0]
+
+# Parameter adjustment rules
+adjustment_rules:
+  efficiency_threshold: 0.7
+  max_blade_increase: 2
+  angle_adjustment_step: 5
+  speed_adjustment_factor: 1.1 

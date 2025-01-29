@@ -1,0 +1,320 @@
+{
+    "Low Flow Rate": {
+        "results": {
+            "5.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.000000000000004,
+                    "blade_height": 0.05,
+                    "rotational_speed": 500.0
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 7.0527784120905155,
+                    "tip_speed": 7.853981633974482,
+                    "power_factor": 484.47307312968445,
+                    "specific_speed": 10.575876974781318,
+                    "efficiency": 0.7297054859775334
+                },
+                "error": 2.0527784120905155,
+                "iterations": 10
+            },
+            "7.5": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.0,
+                    "blade_height": 0.05,
+                    "rotational_speed": 531.7053063179067
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 7.499999411985815,
+                    "tip_speed": 8.352007421015232,
+                    "power_factor": 582.6028631882582,
+                    "specific_speed": 10.739687330474913,
+                    "efficiency": 0.7297054859775335
+                },
+                "error": 5.880141848990661e-07,
+                "iterations": 0
+            },
+            "10.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.0,
+                    "blade_height": 0.05,
+                    "rotational_speed": 708.9404643412637
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 10.000000004726981,
+                    "tip_speed": 11.136010773035252,
+                    "power_factor": 1380.9848913682126,
+                    "specific_speed": 11.540545310078537,
+                    "efficiency": 0.7297054859775335
+                },
+                "error": 4.726981472913394e-09,
+                "iterations": 0
+            }
+        },
+        "analysis": {
+            "total_iterations": 12,
+            "convergence_rate": {
+                "10.0": {
+                    "initial_error": 4.726981472913394e-09,
+                    "final_error": 4.726981472913394e-09,
+                    "improvement": 0.0
+                },
+                "5.0": {
+                    "initial_error": 2.0527784120905155,
+                    "final_error": 2.0527784120905155,
+                    "improvement": 0.0
+                },
+                "7.5": {
+                    "initial_error": 5.880141848990661e-07,
+                    "final_error": 5.880141848990661e-07,
+                    "improvement": 0.0
+                }
+            },
+            "efficiency_stats": {
+                "mean": 0.7297054859775333,
+                "std": 1.3597399555105182e-16,
+                "max": 0.7297054859775335,
+                "min": 0.7297054859775334
+            },
+            "parameter_sensitivity": {}
+        }
+    },
+    "Medium Flow Rate": {
+        "results": {
+            "15.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.000000000000004,
+                    "blade_height": 0.05,
+                    "rotational_speed": 1063.4107634676948
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 15.0000009515393,
+                    "tip_speed": 16.704017211292115,
+                    "power_factor": 4660.82488874973,
+                    "specific_speed": 12.771713039183409,
+                    "efficiency": 0.7297054859775334
+                },
+                "error": 9.51539300686477e-07,
+                "iterations": 0
+            },
+            "20.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.000000000000078,
+                    "blade_height": 0.05,
+                    "rotational_speed": 1417.8809358166352
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 20.000000110084528,
+                    "tip_speed": 22.27202165813281,
+                    "power_factor": 11047.879297708849,
+                    "specific_speed": 13.72409861101998,
+                    "efficiency": 0.7297054859775328
+                },
+                "error": 1.1008452815985947e-07,
+                "iterations": 0
+            },
+            "25.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.000000000001474,
+                    "blade_height": 0.05,
+                    "rotational_speed": 1772.3511834373348
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 25.000000330379834,
+                    "tip_speed": 27.840027287339534,
+                    "power_factor": 21577.889752496754,
+                    "specific_speed": 14.511467515891447,
+                    "efficiency": 0.7297054859775223
+                },
+                "error": 3.303798337128683e-07,
+                "iterations": 0
+            }
+        },
+        "analysis": {
+            "total_iterations": 15,
+            "convergence_rate": {
+                "5.0": {
+                    "initial_error": 2.0527784120905155,
+                    "final_error": 2.0527784120905155,
+                    "improvement": 0.0
+                },
+                "7.5": {
+                    "initial_error": 5.880141848990661e-07,
+                    "final_error": 5.880141848990661e-07,
+                    "improvement": 0.0
+                },
+                "10.0": {
+                    "initial_error": 4.726981472913394e-09,
+                    "final_error": 4.726981472913394e-09,
+                    "improvement": 0.0
+                },
+                "15.0": {
+                    "initial_error": 9.51539300686477e-07,
+                    "final_error": 9.51539300686477e-07,
+                    "improvement": 0.0
+                },
+                "20.0": {
+                    "initial_error": 1.1008452815985947e-07,
+                    "final_error": 1.1008452815985947e-07,
+                    "improvement": 0.0
+                },
+                "25.0": {
+                    "initial_error": 3.303798337128683e-07,
+                    "final_error": 3.303798337128683e-07,
+                    "improvement": 0.0
+                }
+            },
+            "efficiency_stats": {
+                "mean": 0.7297054859775325,
+                "std": 2.770223365290813e-15,
+                "max": 0.7297054859775335,
+                "min": 0.7297054859775223
+            },
+            "parameter_sensitivity": {}
+        }
+    },
+    "High Flow Rate": {
+        "results": {
+            "30.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.00000000000052,
+                    "blade_height": 0.05,
+                    "rotational_speed": 2126.821391945218
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 29.99999999896707,
+                    "tip_speed": 33.40803230216357,
+                    "power_factor": 37286.59201021438,
+                    "specific_speed": 15.188211775969531,
+                    "efficiency": 0.7297054859775295
+                },
+                "error": 1.0329301858291728e-09,
+                "iterations": 0
+            },
+            "35.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 53.84855216575247,
+                    "blade_height": 0.05,
+                    "rotational_speed": 1499.9566515413742
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 34.99999960680906,
+                    "tip_speed": 23.561263985927628,
+                    "power_factor": 13079.638944582251,
+                    "specific_speed": 17.901652164196864,
+                    "efficiency": 0.5130797080174467
+                },
+                "error": 3.9319093758649615e-07,
+                "iterations": 0
+            },
+            "40.0": {
+                "params": {
+                    "num_blades": 6,
+                    "outer_diameter": 0.3,
+                    "inner_diameter": 0.1,
+                    "blade_angle_inlet": 30.0,
+                    "blade_angle_outlet": 20.0,
+                    "blade_height": 0.05,
+                    "rotational_speed": 2835.7618012274725
+                },
+                "metrics": {
+                    "avg_outlet_velocity": 39.99999922705606,
+                    "tip_speed": 44.544042210333934,
+                    "power_factor": 88383.02779859558,
+                    "specific_speed": 16.320795613921455,
+                    "efficiency": 0.7297054859775335
+                },
+                "error": 7.729439417403228e-07,
+                "iterations": 0
+            }
+        },
+        "analysis": {
+            "total_iterations": 18,
+            "convergence_rate": {
+                "35.0": {
+                    "initial_error": 3.9319093758649615e-07,
+                    "final_error": 3.9319093758649615e-07,
+                    "improvement": 0.0
+                },
+                "5.0": {
+                    "initial_error": 2.0527784120905155,
+                    "final_error": 2.0527784120905155,
+                    "improvement": 0.0
+                },
+                "7.5": {
+                    "initial_error": 5.880141848990661e-07,
+                    "final_error": 5.880141848990661e-07,
+                    "improvement": 0.0
+                },
+                "40.0": {
+                    "initial_error": 7.729439417403228e-07,
+                    "final_error": 7.729439417403228e-07,
+                    "improvement": 0.0
+                },
+                "10.0": {
+                    "initial_error": 4.726981472913394e-09,
+                    "final_error": 4.726981472913394e-09,
+                    "improvement": 0.0
+                },
+                "15.0": {
+                    "initial_error": 9.51539300686477e-07,
+                    "final_error": 9.51539300686477e-07,
+                    "improvement": 0.0
+                },
+                "20.0": {
+                    "initial_error": 1.1008452815985947e-07,
+                    "final_error": 1.1008452815985947e-07,
+                    "improvement": 0.0
+                },
+                "25.0": {
+                    "initial_error": 3.303798337128683e-07,
+                    "final_error": 3.303798337128683e-07,
+                    "improvement": 0.0
+                },
+                "30.0": {
+                    "initial_error": 1.0329301858291728e-09,
+                    "final_error": 1.0329301858291728e-09,
+                    "improvement": 0.0
+                }
+            },
+            "efficiency_stats": {
+                "mean": 0.7176707205353055,
+                "std": 0.0496206090978351,
+                "max": 0.7297054859775335,
+                "min": 0.5130797080174467
+            },
+            "parameter_sensitivity": {}
+        }
+    }
+}
