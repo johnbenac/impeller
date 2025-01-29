@@ -1,0 +1,1423 @@
+{
+    "Very Low Flow Rate": {
+        "name": "Very Low Flow Rate",
+        "results": {
+            "0.05": {
+                "error": 4.866224367905403e-07,
+                "metrics": {
+                    "head": {
+                        "euler": 11.264187930005335,
+                        "actual": 10.700978533505069,
+                        "losses": 0.5632093965002668
+                    },
+                    "flow": {
+                        "mass_flow": 49.99999975668879,
+                        "volumetric_flow": 0.049999999756688784
+                    },
+                    "power": {
+                        "hydraulic": 5248.829945142253,
+                        "shaft": 8082.780811554053,
+                        "mechanical": 10863.734758122695
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.878978671857049,
+                        "volumetric": 0.9929827757963836,
+                        "mechanical": 0.7440149259453013,
+                        "overall": 0.6493841745206345
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.69967181215707,
+                        "flow_coefficient": 0.2971057473828554,
+                        "head_coefficient": 0.09153110821553914
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.06980651448329146,
+                        "incidence": 0.5839682906216592,
+                        "diffusion": -1.5464356501883607,
+                        "disk": 0.03120558694376815,
+                        "secondary": 0.3046613526689206,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 8,
+                    "blade_angle_inlet": 18.228220870355482,
+                    "blade_angle_outlet": 69.99999963400735,
+                    "rotational_speed": 2155.9665218012237
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.6493841745206345,
+                "min": 0.6493841745206345,
+                "mean": 0.6493841745206345
+            },
+            "convergence_rate": {
+                "0.05": {
+                    "initial_error": 19.8873119949739,
+                    "final_error": 4.866224367905403e-07,
+                    "improvement": 19.887311508351463
+                }
+            }
+        }
+    },
+    "Low-Medium Flow Rate": {
+        "name": "Low-Medium Flow Rate",
+        "results": {
+            "0.0605": {
+                "error": 2.8348850344788968e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 23.827662354205604,
+                        "actual": 22.636279236495323,
+                        "losses": 1.1913831177102803
+                    },
+                    "flow": {
+                        "mass_flow": 60.49998284894554,
+                        "volumetric_flow": 0.06049998284894554
+                    },
+                    "power": {
+                        "hydraulic": 13434.741099660429,
+                        "shaft": 18122.10277138123,
+                        "mechanical": 22031.860534991978
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.9073166204363993,
+                        "volumetric": 0.9933548829125592,
+                        "mechanical": 0.8225407356132679,
+                        "overall": 0.7413455970946611
+                    },
+                    "dimensionless": {
+                        "specific_speed": 12.827302220580187,
+                        "flow_coefficient": 0.2516088882934784,
+                        "head_coefficient": 0.10000180021084677
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.051381035586723835,
+                        "incidence": 0.42830196685075633,
+                        "diffusion": -1.8002589344576496,
+                        "disk": 0.030745742791187473,
+                        "secondary": 0.19356903995650523,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 15.106557854501277,
+                    "blade_angle_outlet": 58.75402539210875,
+                    "rotational_speed": 2999.944629320211
+                }
+            },
+            "0.071": {
+                "error": 7.125319563636743e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 23.82817690893521,
+                        "actual": 22.63676806348845,
+                        "losses": 1.1914088454467604
+                    },
+                    "flow": {
+                        "mass_flow": 71.00005058976889,
+                        "volumetric_flow": 0.0710000505897689
+                    },
+                    "power": {
+                        "hydraulic": 15766.746558203104,
+                        "shaft": 24484.103948138792,
+                        "mechanical": 33126.77401047639
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.8775346778448189,
+                        "volumetric": 0.9928611438431425,
+                        "mechanical": 0.7391031780032569,
+                        "overall": 0.6439584879887608
+                    },
+                    "dimensionless": {
+                        "specific_speed": 13.895942630482176,
+                        "flow_coefficient": 0.2991802087607386,
+                        "head_coefficient": 0.10000026824369579
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.05558532264768023,
+                        "incidence": 0.5387761890636474,
+                        "diffusion": -1.3397309803511555,
+                        "disk": 0.026199599279962318,
+                        "secondary": 0.2832506716347514,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 6,
+                    "blade_angle_inlet": 18.37628061441749,
+                    "blade_angle_outlet": 66.26045688598457,
+                    "rotational_speed": 3000.0
+                }
+            },
+            "0.0815": {
+                "error": 7.967447424380434e-08,
+                "metrics": {
+                    "head": {
+                        "euler": 22.50992208389642,
+                        "actual": 21.3844259797016,
+                        "losses": 1.125496104194821
+                    },
+                    "flow": {
+                        "mass_flow": 81.4999999350653,
+                        "volumetric_flow": 0.0814999999350653
+                    },
+                    "power": {
+                        "hydraulic": 17097.169323539045,
+                        "shaft": 31452.71055281889,
+                        "mechanical": 44932.44364688413
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.7842871516731478,
+                        "volumetric": 0.9901317661180556,
+                        "mechanical": 0.7,
+                        "overall": 0.5435833358408833
+                    },
+                    "dimensionless": {
+                        "specific_speed": 12.857321602967618,
+                        "flow_coefficient": 0.4095858252678654,
+                        "head_coefficient": 0.137953758715528
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.03971721130440441,
+                        "incidence": 0.4293559244393704,
+                        "diffusion": -0.4238886773599332,
+                        "disk": 0.014219477782188742,
+                        "secondary": 0.4405051998554258,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 27.500979278907177,
+                    "blade_angle_outlet": 64.08616080927095,
+                    "rotational_speed": 2482.5422947256484
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.7413455970946611,
+                "min": 0.5435833358408833,
+                "mean": 0.642962473641435
+            },
+            "convergence_rate": {
+                "0.0605": {
+                    "initial_error": 0.9195768636579267,
+                    "final_error": 2.8348850344788968e-05,
+                    "improvement": 0.9195485148075819
+                },
+                "0.071": {
+                    "initial_error": 15.572315496497241,
+                    "final_error": 7.125319563636743e-05,
+                    "improvement": 15.572244243301604
+                },
+                "0.0815": {
+                    "initial_error": 26.449501843574293,
+                    "final_error": 7.967447424380434e-08,
+                    "improvement": 26.449501763899818
+                }
+            }
+        }
+    },
+    "Medium Flow Rate": {
+        "name": "Medium Flow Rate",
+        "results": {
+            "0.092": {
+                "error": 0.0018088552239845076,
+                "metrics": {
+                    "head": {
+                        "euler": 23.830698199188994,
+                        "actual": 22.639163289229543,
+                        "losses": 1.1915349099594497
+                    },
+                    "flow": {
+                        "mass_flow": 91.99833585319394,
+                        "volumetric_flow": 0.09199833585319393
+                    },
+                    "power": {
+                        "hydraulic": 20431.928061111994,
+                        "shaft": 36348.44123474233,
+                        "mechanical": 51926.344621060474
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.809760672334683,
+                        "volumetric": 0.9916737990498662,
+                        "mechanical": 0.7,
+                        "overall": 0.5621129095787162
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.816639132374455,
+                        "flow_coefficient": 0.3825979890589575,
+                        "head_coefficient": 0.10001084940156876
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.044531838905471674,
+                        "incidence": 0.6232890478136497,
+                        "diffusion": -0.8388396380402156,
+                        "disk": 0.02021749687734387,
+                        "secondary": 0.5075336153787594,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 24.962215123336353,
+                    "blade_angle_outlet": 34.69794690765366,
+                    "rotational_speed": 3000.0
+                }
+            },
+            "0.1025": {
+                "error": 3.000526250227292e-07,
+                "metrics": {
+                    "head": {
+                        "euler": 24.728824222958316,
+                        "actual": 23.4923830118104,
+                        "losses": 1.236441211147916
+                    },
+                    "flow": {
+                        "mass_flow": 102.49999969244605,
+                        "volumetric_flow": 0.10249999969244605
+                    },
+                    "power": {
+                        "hydraulic": 23622.178357071683,
+                        "shaft": 44359.73349465651,
+                        "mechanical": 63371.047849509305
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.7678199841424864,
+                        "volumetric": 0.9907716350003108,
+                        "mechanical": 0.7,
+                        "overall": 0.5325139827523347
+                    },
+                    "dimensionless": {
+                        "specific_speed": 16.23813028501244,
+                        "flow_coefficient": 0.426271876331436,
+                        "head_coefficient": 0.10378008611419719
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.04558088301821766,
+                        "incidence": 0.5305060063065281,
+                        "diffusion": -0.6260027400167135,
+                        "disk": 0.01748704780110725,
+                        "secondary": 0.6554392297317755,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 29.24471467292563,
+                    "blade_angle_outlet": 45.19806466243403,
+                    "rotational_speed": 2999.999274589685
+                }
+            },
+            "0.113": {
+                "error": 7.207551566395535e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 27.33711012020029,
+                        "actual": 25.970254614190274,
+                        "losses": 1.3668555060100145
+                    },
+                    "flow": {
+                        "mass_flow": 112.9999185546673,
+                        "volumetric_flow": 0.1129999185546673
+                    },
+                    "power": {
+                        "hydraulic": 28788.78559778772,
+                        "shaft": 57530.551790603546,
+                        "mechanical": 82186.50255800507
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.7225259181318656,
+                        "volumetric": 0.9894032562005406,
+                        "mechanical": 0.7,
+                        "overall": 0.5004086472622671
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.814352275979163,
+                        "flow_coefficient": 0.46993830053438745,
+                        "head_coefficient": 0.11472629045331563
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.04081146374047777,
+                        "incidence": 0.2826455509310944,
+                        "diffusion": -0.41479653279362955,
+                        "disk": 0.014348727575552462,
+                        "secondary": 0.8178964099060455,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 35.015421745789475,
+                    "blade_angle_outlet": 41.10790491531439,
+                    "rotational_speed": 2999.999999999995
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.5621129095787162,
+                "min": 0.5004086472622671,
+                "mean": 0.5316785131977727
+            },
+            "convergence_rate": {
+                "0.092": {
+                    "initial_error": 34.84385217664461,
+                    "final_error": 0.0018088552239845076,
+                    "improvement": 34.842043321420626
+                },
+                "0.1025": {
+                    "initial_error": 41.51838439269565,
+                    "final_error": 3.000526250227292e-07,
+                    "improvement": 41.518384092643025
+                },
+                "0.113": {
+                    "initial_error": 46.95251681638323,
+                    "final_error": 7.207551566395535e-05,
+                    "improvement": 46.95244474086757
+                }
+            }
+        }
+    },
+    "Medium-High Flow Rate": {
+        "name": "Medium-High Flow Rate",
+        "results": {
+            "0.1235": {
+                "error": 2.649087174990418,
+                "metrics": {
+                    "head": {
+                        "euler": 32.34510352834716,
+                        "actual": 30.7278483519298,
+                        "losses": 1.6172551764173582
+                    },
+                    "flow": {
+                        "mass_flow": 120.22837733888683,
+                        "volumetric_flow": 0.12022837733888683
+                    },
+                    "power": {
+                        "hydraulic": 36241.66518885018,
+                        "shaft": 75991.01444210813,
+                        "mechanical": 108558.59206015448
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898419754787516,
+                        "volumetric": 0.9876390315948885,
+                        "mechanical": 0.7,
+                        "overall": 0.4769204024307373
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.37884091913346,
+                        "flow_coefficient": 0.49999964642352707,
+                        "head_coefficient": 0.13574345371164598
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.035679990450659664,
+                        "incidence": 4.393884122150995e-06,
+                        "diffusion": -0.232875331391969,
+                        "disk": 0.01139799839795739,
+                        "secondary": 1.0485259406077374,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.96593061157796,
+                    "blade_angle_outlet": 41.106430662108146,
+                    "rotational_speed": 2999.999999969332
+                }
+            },
+            "0.134": {
+                "error": 10.277317425842199,
+                "metrics": {
+                    "head": {
+                        "euler": 32.3466696109315,
+                        "actual": 30.729336130384926,
+                        "losses": 1.617333480546575
+                    },
+                    "flow": {
+                        "mass_flow": 120.22839464937147,
+                        "volumetric_flow": 0.12022839464937146
+                    },
+                    "power": {
+                        "hydraulic": 36243.42515316763,
+                        "shaft": 75994.73732187907,
+                        "mechanical": 108563.91045982725
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898418959868123,
+                        "volumetric": 0.9876387215810293,
+                        "mechanical": 0.7,
+                        "overall": 0.47692019777181405
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.378319830321352,
+                        "flow_coefficient": 0.4999997184436507,
+                        "head_coefficient": 0.13575002614349385
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.03567867660699291,
+                        "incidence": 3.499171474848827e-06,
+                        "diffusion": -0.2328370496794747,
+                        "disk": 0.011397444914390091,
+                        "secondary": 1.0486095487195513,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.969597778733764,
+                    "blade_angle_outlet": 41.10554910587496,
+                    "rotational_speed": 2999.9999997883565
+                }
+            },
+            "0.1445": {
+                "error": 16.796988276802992,
+                "metrics": {
+                    "head": {
+                        "euler": 32.34300058792133,
+                        "actual": 30.725850558525266,
+                        "losses": 1.6171500293960666
+                    },
+                    "flow": {
+                        "mass_flow": 120.22835194001966,
+                        "volumetric_flow": 0.12022835194001967
+                    },
+                    "power": {
+                        "hydraulic": 36239.30125489296,
+                        "shaft": 75986.01288640774,
+                        "mechanical": 108551.44698058249
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898420920700028,
+                        "volumetric": 0.9876394481650359,
+                        "mechanical": 0.7,
+                        "overall": 0.476920684193122
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.379540578382654,
+                        "flow_coefficient": 0.49999954079121933,
+                        "head_coefficient": 0.13573462824969354
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.03568154564421872,
+                        "incidence": 5.705995266552836e-06,
+                        "diffusion": -0.23292595968163163,
+                        "disk": 0.011398741903643579,
+                        "secondary": 1.0484197863537161,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.96117354340352,
+                    "blade_angle_outlet": 41.106195994002235,
+                    "rotational_speed": 2999.999999998095
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.476920684193122,
+                "min": 0.47692019777181405,
+                "mean": 0.4769204281318911
+            },
+            "convergence_rate": {
+                "0.1235": {
+                    "initial_error": 51.46262672268263,
+                    "final_error": 2.649087174990418,
+                    "improvement": 48.81353954769221
+                },
+                "0.134": {
+                    "initial_error": 55.265928360084374,
+                    "final_error": 10.277317425842199,
+                    "improvement": 44.988610934242175
+                },
+                "0.1445": {
+                    "initial_error": 58.51650103980142,
+                    "final_error": 16.796988276802992,
+                    "improvement": 41.71951276299843
+                }
+            }
+        }
+    },
+    "High Flow Rate": {
+        "name": "High Flow Rate",
+        "results": {
+            "0.15": {
+                "error": 20.89498274801475,
+                "metrics": {
+                    "head": {
+                        "euler": 29.99109783538689,
+                        "actual": 28.491542943617546,
+                        "losses": 1.4995548917693444
+                    },
+                    "flow": {
+                        "mass_flow": 118.65752587797787,
+                        "volumetric_flow": 0.11865752587797787
+                    },
+                    "power": {
+                        "hydraulic": 33165.020102472365,
+                        "shaft": 69507.35340746719,
+                        "mechanical": 99296.21915352457
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898422370777442,
+                        "volumetric": 0.988101801193611,
+                        "mechanical": 0.7,
+                        "overall": 0.47714404989716436
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.117506599493982,
+                        "flow_coefficient": 0.4999994094134028,
+                        "head_coefficient": 0.1258643428711909
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.040310665270990365,
+                        "incidence": 7.912499132216957e-06,
+                        "diffusion": -0.26701319814724706,
+                        "disk": 0.012455365336650344,
+                        "secondary": 1.1304311877945086,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 6,
+                    "blade_angle_inlet": 44.95596839983396,
+                    "blade_angle_outlet": 47.60087107768427,
+                    "rotational_speed": 2999.999999999999
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.47714404989716436,
+                "min": 0.47714404989716436,
+                "mean": 0.47714404989716436
+            },
+            "convergence_rate": {
+                "0.15": {
+                    "initial_error": 60.03756266834203,
+                    "final_error": 20.89498274801475,
+                    "improvement": 39.14257992032728
+                }
+            }
+        }
+    },
+    "Full Range Test": {
+        "name": "Full Range Test",
+        "results": {
+            "0.05": {
+                "error": 4.866224367905403e-07,
+                "metrics": {
+                    "head": {
+                        "euler": 11.264187930005335,
+                        "actual": 10.700978533505069,
+                        "losses": 0.5632093965002668
+                    },
+                    "flow": {
+                        "mass_flow": 49.99999975668879,
+                        "volumetric_flow": 0.049999999756688784
+                    },
+                    "power": {
+                        "hydraulic": 5248.829945142253,
+                        "shaft": 8082.780811554053,
+                        "mechanical": 10863.734758122695
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.878978671857049,
+                        "volumetric": 0.9929827757963836,
+                        "mechanical": 0.7440149259453013,
+                        "overall": 0.6493841745206345
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.69967181215707,
+                        "flow_coefficient": 0.2971057473828554,
+                        "head_coefficient": 0.09153110821553914
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.06980651448329146,
+                        "incidence": 0.5839682906216592,
+                        "diffusion": -1.5464356501883607,
+                        "disk": 0.03120558694376815,
+                        "secondary": 0.3046613526689206,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 8,
+                    "blade_angle_inlet": 18.228220870355482,
+                    "blade_angle_outlet": 69.99999963400735,
+                    "rotational_speed": 2155.9665218012237
+                }
+            },
+            "0.0605": {
+                "error": 2.8348850344788968e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 23.827662354205604,
+                        "actual": 22.636279236495323,
+                        "losses": 1.1913831177102803
+                    },
+                    "flow": {
+                        "mass_flow": 60.49998284894554,
+                        "volumetric_flow": 0.06049998284894554
+                    },
+                    "power": {
+                        "hydraulic": 13434.741099660429,
+                        "shaft": 18122.10277138123,
+                        "mechanical": 22031.860534991978
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.9073166204363993,
+                        "volumetric": 0.9933548829125592,
+                        "mechanical": 0.8225407356132679,
+                        "overall": 0.7413455970946611
+                    },
+                    "dimensionless": {
+                        "specific_speed": 12.827302220580187,
+                        "flow_coefficient": 0.2516088882934784,
+                        "head_coefficient": 0.10000180021084677
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.051381035586723835,
+                        "incidence": 0.42830196685075633,
+                        "diffusion": -1.8002589344576496,
+                        "disk": 0.030745742791187473,
+                        "secondary": 0.19356903995650523,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 15.106557854501277,
+                    "blade_angle_outlet": 58.75402539210875,
+                    "rotational_speed": 2999.944629320211
+                }
+            },
+            "0.071": {
+                "error": 7.125319563636743e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 23.82817690893521,
+                        "actual": 22.63676806348845,
+                        "losses": 1.1914088454467604
+                    },
+                    "flow": {
+                        "mass_flow": 71.00005058976889,
+                        "volumetric_flow": 0.0710000505897689
+                    },
+                    "power": {
+                        "hydraulic": 15766.746558203104,
+                        "shaft": 24484.103948138792,
+                        "mechanical": 33126.77401047639
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.8775346778448189,
+                        "volumetric": 0.9928611438431425,
+                        "mechanical": 0.7391031780032569,
+                        "overall": 0.6439584879887608
+                    },
+                    "dimensionless": {
+                        "specific_speed": 13.895942630482176,
+                        "flow_coefficient": 0.2991802087607386,
+                        "head_coefficient": 0.10000026824369579
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.05558532264768023,
+                        "incidence": 0.5387761890636474,
+                        "diffusion": -1.3397309803511555,
+                        "disk": 0.026199599279962318,
+                        "secondary": 0.2832506716347514,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 6,
+                    "blade_angle_inlet": 18.37628061441749,
+                    "blade_angle_outlet": 66.26045688598457,
+                    "rotational_speed": 3000.0
+                }
+            },
+            "0.0815": {
+                "error": 7.967447424380434e-08,
+                "metrics": {
+                    "head": {
+                        "euler": 22.50992208389642,
+                        "actual": 21.3844259797016,
+                        "losses": 1.125496104194821
+                    },
+                    "flow": {
+                        "mass_flow": 81.4999999350653,
+                        "volumetric_flow": 0.0814999999350653
+                    },
+                    "power": {
+                        "hydraulic": 17097.169323539045,
+                        "shaft": 31452.71055281889,
+                        "mechanical": 44932.44364688413
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.7842871516731478,
+                        "volumetric": 0.9901317661180556,
+                        "mechanical": 0.7,
+                        "overall": 0.5435833358408833
+                    },
+                    "dimensionless": {
+                        "specific_speed": 12.857321602967618,
+                        "flow_coefficient": 0.4095858252678654,
+                        "head_coefficient": 0.137953758715528
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.03971721130440441,
+                        "incidence": 0.4293559244393704,
+                        "diffusion": -0.4238886773599332,
+                        "disk": 0.014219477782188742,
+                        "secondary": 0.4405051998554258,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 27.500979278907177,
+                    "blade_angle_outlet": 64.08616080927095,
+                    "rotational_speed": 2482.5422947256484
+                }
+            },
+            "0.092": {
+                "error": 0.0018088552239845076,
+                "metrics": {
+                    "head": {
+                        "euler": 23.830698199188994,
+                        "actual": 22.639163289229543,
+                        "losses": 1.1915349099594497
+                    },
+                    "flow": {
+                        "mass_flow": 91.99833585319394,
+                        "volumetric_flow": 0.09199833585319393
+                    },
+                    "power": {
+                        "hydraulic": 20431.928061111994,
+                        "shaft": 36348.44123474233,
+                        "mechanical": 51926.344621060474
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.809760672334683,
+                        "volumetric": 0.9916737990498662,
+                        "mechanical": 0.7,
+                        "overall": 0.5621129095787162
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.816639132374455,
+                        "flow_coefficient": 0.3825979890589575,
+                        "head_coefficient": 0.10001084940156876
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.044531838905471674,
+                        "incidence": 0.6232890478136497,
+                        "diffusion": -0.8388396380402156,
+                        "disk": 0.02021749687734387,
+                        "secondary": 0.5075336153787594,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 24.962215123336353,
+                    "blade_angle_outlet": 34.69794690765366,
+                    "rotational_speed": 3000.0
+                }
+            },
+            "0.1025": {
+                "error": 3.000526250227292e-07,
+                "metrics": {
+                    "head": {
+                        "euler": 24.728824222958316,
+                        "actual": 23.4923830118104,
+                        "losses": 1.236441211147916
+                    },
+                    "flow": {
+                        "mass_flow": 102.49999969244605,
+                        "volumetric_flow": 0.10249999969244605
+                    },
+                    "power": {
+                        "hydraulic": 23622.178357071683,
+                        "shaft": 44359.73349465651,
+                        "mechanical": 63371.047849509305
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.7678199841424864,
+                        "volumetric": 0.9907716350003108,
+                        "mechanical": 0.7,
+                        "overall": 0.5325139827523347
+                    },
+                    "dimensionless": {
+                        "specific_speed": 16.23813028501244,
+                        "flow_coefficient": 0.426271876331436,
+                        "head_coefficient": 0.10378008611419719
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.04558088301821766,
+                        "incidence": 0.5305060063065281,
+                        "diffusion": -0.6260027400167135,
+                        "disk": 0.01748704780110725,
+                        "secondary": 0.6554392297317755,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 29.24471467292563,
+                    "blade_angle_outlet": 45.19806466243403,
+                    "rotational_speed": 2999.999274589685
+                }
+            },
+            "0.113": {
+                "error": 7.207551566395535e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 27.33711012020029,
+                        "actual": 25.970254614190274,
+                        "losses": 1.3668555060100145
+                    },
+                    "flow": {
+                        "mass_flow": 112.9999185546673,
+                        "volumetric_flow": 0.1129999185546673
+                    },
+                    "power": {
+                        "hydraulic": 28788.78559778772,
+                        "shaft": 57530.551790603546,
+                        "mechanical": 82186.50255800507
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.7225259181318656,
+                        "volumetric": 0.9894032562005406,
+                        "mechanical": 0.7,
+                        "overall": 0.5004086472622671
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.814352275979163,
+                        "flow_coefficient": 0.46993830053438745,
+                        "head_coefficient": 0.11472629045331563
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.04081146374047777,
+                        "incidence": 0.2826455509310944,
+                        "diffusion": -0.41479653279362955,
+                        "disk": 0.014348727575552462,
+                        "secondary": 0.8178964099060455,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 35.015421745789475,
+                    "blade_angle_outlet": 41.10790491531439,
+                    "rotational_speed": 2999.999999999995
+                }
+            },
+            "0.1235": {
+                "error": 2.649087174990418,
+                "metrics": {
+                    "head": {
+                        "euler": 32.34510352834716,
+                        "actual": 30.7278483519298,
+                        "losses": 1.6172551764173582
+                    },
+                    "flow": {
+                        "mass_flow": 120.22837733888683,
+                        "volumetric_flow": 0.12022837733888683
+                    },
+                    "power": {
+                        "hydraulic": 36241.66518885018,
+                        "shaft": 75991.01444210813,
+                        "mechanical": 108558.59206015448
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898419754787516,
+                        "volumetric": 0.9876390315948885,
+                        "mechanical": 0.7,
+                        "overall": 0.4769204024307373
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.37884091913346,
+                        "flow_coefficient": 0.49999964642352707,
+                        "head_coefficient": 0.13574345371164598
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.035679990450659664,
+                        "incidence": 4.393884122150995e-06,
+                        "diffusion": -0.232875331391969,
+                        "disk": 0.01139799839795739,
+                        "secondary": 1.0485259406077374,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.96593061157796,
+                    "blade_angle_outlet": 41.106430662108146,
+                    "rotational_speed": 2999.999999969332
+                }
+            },
+            "0.134": {
+                "error": 10.277317425842199,
+                "metrics": {
+                    "head": {
+                        "euler": 32.3466696109315,
+                        "actual": 30.729336130384926,
+                        "losses": 1.617333480546575
+                    },
+                    "flow": {
+                        "mass_flow": 120.22839464937147,
+                        "volumetric_flow": 0.12022839464937146
+                    },
+                    "power": {
+                        "hydraulic": 36243.42515316763,
+                        "shaft": 75994.73732187907,
+                        "mechanical": 108563.91045982725
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898418959868123,
+                        "volumetric": 0.9876387215810293,
+                        "mechanical": 0.7,
+                        "overall": 0.47692019777181405
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.378319830321352,
+                        "flow_coefficient": 0.4999997184436507,
+                        "head_coefficient": 0.13575002614349385
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.03567867660699291,
+                        "incidence": 3.499171474848827e-06,
+                        "diffusion": -0.2328370496794747,
+                        "disk": 0.011397444914390091,
+                        "secondary": 1.0486095487195513,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.969597778733764,
+                    "blade_angle_outlet": 41.10554910587496,
+                    "rotational_speed": 2999.9999997883565
+                }
+            },
+            "0.1445": {
+                "error": 16.796988276802992,
+                "metrics": {
+                    "head": {
+                        "euler": 32.34300058792133,
+                        "actual": 30.725850558525266,
+                        "losses": 1.6171500293960666
+                    },
+                    "flow": {
+                        "mass_flow": 120.22835194001966,
+                        "volumetric_flow": 0.12022835194001967
+                    },
+                    "power": {
+                        "hydraulic": 36239.30125489296,
+                        "shaft": 75986.01288640774,
+                        "mechanical": 108551.44698058249
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898420920700028,
+                        "volumetric": 0.9876394481650359,
+                        "mechanical": 0.7,
+                        "overall": 0.476920684193122
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.379540578382654,
+                        "flow_coefficient": 0.49999954079121933,
+                        "head_coefficient": 0.13573462824969354
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.03568154564421872,
+                        "incidence": 5.705995266552836e-06,
+                        "diffusion": -0.23292595968163163,
+                        "disk": 0.011398741903643579,
+                        "secondary": 1.0484197863537161,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.96117354340352,
+                    "blade_angle_outlet": 41.106195994002235,
+                    "rotational_speed": 2999.999999998095
+                }
+            },
+            "0.15": {
+                "error": 20.89498274801475,
+                "metrics": {
+                    "head": {
+                        "euler": 29.99109783538689,
+                        "actual": 28.491542943617546,
+                        "losses": 1.4995548917693444
+                    },
+                    "flow": {
+                        "mass_flow": 118.65752587797787,
+                        "volumetric_flow": 0.11865752587797787
+                    },
+                    "power": {
+                        "hydraulic": 33165.020102472365,
+                        "shaft": 69507.35340746719,
+                        "mechanical": 99296.21915352457
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898422370777442,
+                        "volumetric": 0.988101801193611,
+                        "mechanical": 0.7,
+                        "overall": 0.47714404989716436
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.117506599493982,
+                        "flow_coefficient": 0.4999994094134028,
+                        "head_coefficient": 0.1258643428711909
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.040310665270990365,
+                        "incidence": 7.912499132216957e-06,
+                        "diffusion": -0.26701319814724706,
+                        "disk": 0.012455365336650344,
+                        "secondary": 1.1304311877945086,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 6,
+                    "blade_angle_inlet": 44.95596839983396,
+                    "blade_angle_outlet": 47.60087107768427,
+                    "rotational_speed": 2999.999999999999
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.7413455970946611,
+                "min": 0.47692019777181405,
+                "mean": 0.5528374972119178
+            },
+            "convergence_rate": {
+                "0.05": {
+                    "initial_error": 19.8873119949739,
+                    "final_error": 4.866224367905403e-07,
+                    "improvement": 19.887311508351463
+                },
+                "0.0605": {
+                    "initial_error": 0.9195768636579267,
+                    "final_error": 2.8348850344788968e-05,
+                    "improvement": 0.9195485148075819
+                },
+                "0.071": {
+                    "initial_error": 15.572315496497241,
+                    "final_error": 7.125319563636743e-05,
+                    "improvement": 15.572244243301604
+                },
+                "0.0815": {
+                    "initial_error": 26.449501843574293,
+                    "final_error": 7.967447424380434e-08,
+                    "improvement": 26.449501763899818
+                },
+                "0.092": {
+                    "initial_error": 34.84385217664461,
+                    "final_error": 0.0018088552239845076,
+                    "improvement": 34.842043321420626
+                },
+                "0.1025": {
+                    "initial_error": 41.51838439269565,
+                    "final_error": 3.000526250227292e-07,
+                    "improvement": 41.518384092643025
+                },
+                "0.113": {
+                    "initial_error": 46.95251681638323,
+                    "final_error": 7.207551566395535e-05,
+                    "improvement": 46.95244474086757
+                },
+                "0.1235": {
+                    "initial_error": 51.46262672268263,
+                    "final_error": 2.649087174990418,
+                    "improvement": 48.81353954769221
+                },
+                "0.134": {
+                    "initial_error": 55.265928360084374,
+                    "final_error": 10.277317425842199,
+                    "improvement": 44.988610934242175
+                },
+                "0.1445": {
+                    "initial_error": 58.51650103980142,
+                    "final_error": 16.796988276802992,
+                    "improvement": 41.71951276299843
+                },
+                "0.15": {
+                    "initial_error": 60.03756266834203,
+                    "final_error": 20.89498274801475,
+                    "improvement": 39.14257992032728
+                }
+            }
+        }
+    },
+    "Multi-Point Optimization": {
+        "name": "Multi-Point Optimization",
+        "results": {
+            "0.05": {
+                "error": 4.866224367905403e-07,
+                "metrics": {
+                    "head": {
+                        "euler": 11.264187930005335,
+                        "actual": 10.700978533505069,
+                        "losses": 0.5632093965002668
+                    },
+                    "flow": {
+                        "mass_flow": 49.99999975668879,
+                        "volumetric_flow": 0.049999999756688784
+                    },
+                    "power": {
+                        "hydraulic": 5248.829945142253,
+                        "shaft": 8082.780811554053,
+                        "mechanical": 10863.734758122695
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.878978671857049,
+                        "volumetric": 0.9929827757963836,
+                        "mechanical": 0.7440149259453013,
+                        "overall": 0.6493841745206345
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.69967181215707,
+                        "flow_coefficient": 0.2971057473828554,
+                        "head_coefficient": 0.09153110821553914
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.06980651448329146,
+                        "incidence": 0.5839682906216592,
+                        "diffusion": -1.5464356501883607,
+                        "disk": 0.03120558694376815,
+                        "secondary": 0.3046613526689206,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 8,
+                    "blade_angle_inlet": 18.228220870355482,
+                    "blade_angle_outlet": 69.99999963400735,
+                    "rotational_speed": 2155.9665218012237
+                }
+            },
+            "0.0605": {
+                "error": 2.8348850344788968e-05,
+                "metrics": {
+                    "head": {
+                        "euler": 23.827662354205604,
+                        "actual": 22.636279236495323,
+                        "losses": 1.1913831177102803
+                    },
+                    "flow": {
+                        "mass_flow": 60.49998284894554,
+                        "volumetric_flow": 0.06049998284894554
+                    },
+                    "power": {
+                        "hydraulic": 13434.741099660429,
+                        "shaft": 18122.10277138123,
+                        "mechanical": 22031.860534991978
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.9073166204363993,
+                        "volumetric": 0.9933548829125592,
+                        "mechanical": 0.8225407356132679,
+                        "overall": 0.7413455970946611
+                    },
+                    "dimensionless": {
+                        "specific_speed": 12.827302220580187,
+                        "flow_coefficient": 0.2516088882934784,
+                        "head_coefficient": 0.10000180021084677
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.051381035586723835,
+                        "incidence": 0.42830196685075633,
+                        "diffusion": -1.8002589344576496,
+                        "disk": 0.030745742791187473,
+                        "secondary": 0.19356903995650523,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 15.106557854501277,
+                    "blade_angle_outlet": 58.75402539210875,
+                    "rotational_speed": 2999.944629320211
+                }
+            },
+            "0.092": {
+                "error": 0.0018088552239845076,
+                "metrics": {
+                    "head": {
+                        "euler": 23.830698199188994,
+                        "actual": 22.639163289229543,
+                        "losses": 1.1915349099594497
+                    },
+                    "flow": {
+                        "mass_flow": 91.99833585319394,
+                        "volumetric_flow": 0.09199833585319393
+                    },
+                    "power": {
+                        "hydraulic": 20431.928061111994,
+                        "shaft": 36348.44123474233,
+                        "mechanical": 51926.344621060474
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.809760672334683,
+                        "volumetric": 0.9916737990498662,
+                        "mechanical": 0.7,
+                        "overall": 0.5621129095787162
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.816639132374455,
+                        "flow_coefficient": 0.3825979890589575,
+                        "head_coefficient": 0.10001084940156876
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.044531838905471674,
+                        "incidence": 0.6232890478136497,
+                        "diffusion": -0.8388396380402156,
+                        "disk": 0.02021749687734387,
+                        "secondary": 0.5075336153787594,
+                        "clearance": 0.072
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 24.962215123336353,
+                    "blade_angle_outlet": 34.69794690765366,
+                    "rotational_speed": 3000.0
+                }
+            },
+            "0.1235": {
+                "error": 2.649087174990418,
+                "metrics": {
+                    "head": {
+                        "euler": 32.34510352834716,
+                        "actual": 30.7278483519298,
+                        "losses": 1.6172551764173582
+                    },
+                    "flow": {
+                        "mass_flow": 120.22837733888683,
+                        "volumetric_flow": 0.12022837733888683
+                    },
+                    "power": {
+                        "hydraulic": 36241.66518885018,
+                        "shaft": 75991.01444210813,
+                        "mechanical": 108558.59206015448
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898419754787516,
+                        "volumetric": 0.9876390315948885,
+                        "mechanical": 0.7,
+                        "overall": 0.4769204024307373
+                    },
+                    "dimensionless": {
+                        "specific_speed": 14.37884091913346,
+                        "flow_coefficient": 0.49999964642352707,
+                        "head_coefficient": 0.13574345371164598
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.035679990450659664,
+                        "incidence": 4.393884122150995e-06,
+                        "diffusion": -0.232875331391969,
+                        "disk": 0.01139799839795739,
+                        "secondary": 1.0485259406077374,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 4,
+                    "blade_angle_inlet": 44.96593061157796,
+                    "blade_angle_outlet": 41.106430662108146,
+                    "rotational_speed": 2999.999999969332
+                }
+            },
+            "0.15": {
+                "error": 20.89498274801475,
+                "metrics": {
+                    "head": {
+                        "euler": 29.99109783538689,
+                        "actual": 28.491542943617546,
+                        "losses": 1.4995548917693444
+                    },
+                    "flow": {
+                        "mass_flow": 118.65752587797787,
+                        "volumetric_flow": 0.11865752587797787
+                    },
+                    "power": {
+                        "hydraulic": 33165.020102472365,
+                        "shaft": 69507.35340746719,
+                        "mechanical": 99296.21915352457
+                    },
+                    "efficiency": {
+                        "hydraulic": 0.6898422370777442,
+                        "volumetric": 0.988101801193611,
+                        "mechanical": 0.7,
+                        "overall": 0.47714404989716436
+                    },
+                    "dimensionless": {
+                        "specific_speed": 15.117506599493982,
+                        "flow_coefficient": 0.4999994094134028,
+                        "head_coefficient": 0.1258643428711909
+                    },
+                    "loss_breakdown": {
+                        "friction": 0.040310665270990365,
+                        "incidence": 7.912499132216957e-06,
+                        "diffusion": -0.26701319814724706,
+                        "disk": 0.012455365336650344,
+                        "secondary": 1.1304311877945086,
+                        "clearance": 0.07199999999999998
+                    }
+                },
+                "parameters": {
+                    "num_blades": 6,
+                    "blade_angle_inlet": 44.95596839983396,
+                    "blade_angle_outlet": 47.60087107768427,
+                    "rotational_speed": 2999.999999999999
+                }
+            }
+        },
+        "analysis": {
+            "efficiency_stats": {
+                "max": 0.7413455970946611,
+                "min": 0.4769204024307373,
+                "mean": 0.5813814267043826
+            },
+            "convergence_rate": {
+                "0.05": {
+                    "initial_error": 19.8873119949739,
+                    "final_error": 4.866224367905403e-07,
+                    "improvement": 19.887311508351463
+                },
+                "0.0605": {
+                    "initial_error": 0.9195768636579267,
+                    "final_error": 2.8348850344788968e-05,
+                    "improvement": 0.9195485148075819
+                },
+                "0.092": {
+                    "initial_error": 34.84385217664461,
+                    "final_error": 0.0018088552239845076,
+                    "improvement": 34.842043321420626
+                },
+                "0.1235": {
+                    "initial_error": 51.46262672268263,
+                    "final_error": 2.649087174990418,
+                    "improvement": 48.81353954769221
+                },
+                "0.15": {
+                    "initial_error": 60.03756266834203,
+                    "final_error": 20.89498274801475,
+                    "improvement": 39.14257992032728
+                }
+            }
+        }
+    }
+}
